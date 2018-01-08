@@ -10,5 +10,10 @@ $('document').ready(function() {
   };
   firebase.initializeApp(config);
   /* aca */
+  $('#btn').click(function(){
+    /* alert('hola'); */
+    var email = $('#emailuser').val();
+    var password = $('#passworduser').val();
+  });
 
 });
